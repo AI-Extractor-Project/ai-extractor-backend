@@ -10,6 +10,7 @@ auditRouter.post("/", async (req, res) => {
         const result = await runAudit(url);
 
         res.json(result);
+
     } catch (err: any) {
         res.status(500).json({ error: "Audit failed", details: err.message });
     }

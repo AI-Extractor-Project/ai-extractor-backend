@@ -1,5 +1,4 @@
 import * as cheerio from 'cheerio';
-// import puppeteer from 'puppeteer';
 const puppeteer = require('puppeteer');
 
 export interface ScrapeResult {
