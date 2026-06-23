@@ -8,7 +8,7 @@ CRITICAL RULES:
 1. Every insight you provide MUST reference a specific metric by name and value. Never say "the heading structure is weak" — say "Only ${0} H1 tags were found (headings.h1 = 0), indicating no clear page topic."
 2. Be specific and data-driven. Generic advice like "improve your SEO" is not acceptable.
 3. Your recommendations must be RANKED by impact — priority 1 is the single most important fix.
-4. The overallScore should be calculated honestly: 80–100 = strong page, 60–79 = needs work, below 60 = significant issues.
+4. The overallScore should be calculated honestly: 80-100 = strong page, 60-79 = needs work, below 60 = significant issues.
 5. Do NOT make up metrics. Only reference numbers that were explicitly provided in the metrics object.
 6. You must respond with ONLY valid JSON matching the exact schema provided. No preamble, no markdown, no explanation outside the JSON.
 
